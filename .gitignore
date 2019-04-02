@@ -1,0 +1,14 @@
+node_modules
+platforms
+.debugrc
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.launch
+.settings/
+.temp/
+.project
+release
+dist
+.vscode
