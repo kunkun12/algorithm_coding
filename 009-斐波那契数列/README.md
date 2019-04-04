@@ -1,13 +1,5 @@
 
->参考：
->
->[剑指Offer面试题9（java版）斐波那契数列](http://blog.csdn.net/jsqfengbao/article/details/47121489)
->
->[O(logn)时间复杂度求Fibonacci数列](http://blog.csdn.net/dadoneo/article/details/6776272)
->
->[剑指offer第9题及扩展 斐波那契数列](http://www.xuebuyuan.com/1959920.html)
-
-
+[Fibonacci Number](https://leetcode.com/problems/fibonacci-number)
 
 
 题目描述

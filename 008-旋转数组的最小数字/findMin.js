@@ -17,5 +17,5 @@ function findMin(nums){
             high=m
         }
     }
-    return nums[low]
+    return nums[high]
 }
