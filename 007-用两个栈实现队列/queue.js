@@ -20,17 +20,16 @@ MyQueue.prototype.push = function(x) {
  * @return {number}
  */
 MyQueue.prototype.pop = function() {
-    if(this.stack2.length!==0){
-        return this.stack2.pop()
-    }else{
+    if(this.stack2.length===0){
       while(this.stack1.length!==0){
-          this.stack2.push(this.stack1.pop)
-      }
-      if(this.stack2.length!==0){
-        return this.stack2.pop()
+          this.stack2.push(this.stack1.pop())
       }
     }
-
+    if(this.stack2.length!==0){
+      return this.stack2.pop()
+    }else{
+      throw(new Error('error'))
+    }
 };
 
 /**
@@ -38,16 +37,17 @@ MyQueue.prototype.pop = function() {
  * @return {number}
  */
 MyQueue.prototype.peek = function() {
+  if(this.stack2.length===0){
+    while(this.stack1.length!==0){
+      this.stack2.push(this.stack1.pop())
+    }
+  }
   if(this.stack2.length!==0){
     return this.stack2[this.stack2.length-1]
-}else{
-  while(this.stack1.length!==0){
-      this.stack2.push(this.stack1.pop())
-  }
-  if(this.stack2.length!==0){
-     return this.stack2[this.stack2.length-1]
-  }
+ } else{
+     throw(new Error('error'))
 }
+  
 };
 
 /**
@@ -58,11 +58,12 @@ MyQueue.prototype.empty = function() {
     return this.stack1.length===0&&this.stack2.length===0
 };
 
-/** 
- * Your MyQueue object will be instantiated and called as such:
- * var obj = new MyQueue()
- * obj.push(x)
- * var param_2 = obj.pop()
- * var param_3 = obj.peek()
- * var param_4 = obj.empty()
- */
+
+ 
+  var obj = new MyQueue()
+  var  x=1
+  obj.push(x)
+  var param_3 = obj.peek()
+  var param_2 = obj.pop()
+  var param_4 = obj.empty()
+console.log(param_2,param_3,param_4)

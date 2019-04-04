@@ -1,3 +1,4 @@
+[LeetCode 153 Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
 题目描述
 
@@ -9,3 +10,10 @@
 >
 >该数组的最小值为1。
 
+
+1、遍历一遍可以拿出最小值，但是没有利用上数组的有序性
+
+2、第二种最大值后面那个就是最小值 (遍历过程中如果后面的值出现比前面的小了，那么那个值就是最小值了，如果没有出现 则 说明数组是有序的，返回第一个)
+
+
+3、(二分查找)
