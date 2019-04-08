@@ -1,16 +1,5 @@
 
-
->其实这道题跟LeetCode上一道题是一样的
-
->[LeetCodet题解--21. Merge Two Sorted Lists（合并两个排序好的链表）](http://blog.csdn.net/gatieme/article/details/51094742)
->
->当然他还有很多变种，比如说两个链表扩展成为K个的时候
->
->[LeetCodet题解--23. Merge k Sorted Lists（合并K个已排序的链表）](http://blog.csdn.net/gatieme/article/details/51097730)
-
-
-<br>**您也可以选择[回到目录-剑指Offer--题集目录索引](http://blog.csdn.net/gatieme/article/details/51916802)**
-
+[21.Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 
 #题意

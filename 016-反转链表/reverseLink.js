@@ -1,48 +1,35 @@
 
 
-function reverseLink(root){
-  let preNode= null;
-  let curNode = root
-  let nextNode = null
-  if(root==null) return null
-  while(curNode&&curNode.next){
-      nextNode = curNode.next;
-      curNode.next = preNode
-      preNode = curNode
-      curNode = nextNode
-  }
-  return curNode
-}
-
-function reverseLink2(root){
+var reverseList = function(head) {
+    let curNode = head
     let preNode = null
-    let curNode = root
     let nextNode = null
-
-    while(curNode!=null){
+    while(curNode){
         nextNode = curNode.next
-        curNode.next=preNode
+        curNode.next = preNode
         preNode = curNode
         curNode = nextNode
     }
-    return preNode
-}
+     return preNode
+ };
+
 
 
  // 1->2-3->4->5
-function reverseLink3(root){
-    if(root==null){
+function reverseList2(head) {
+    if(head==null){
         return null
     }
-   let newNode = root 
-   let pNode = root.next
-    newNode.next= null
-    let nextNode = null
-    while(pNode){
-        nextNode = pNode.next
-        pNode.next=newNode
-        newNode=pNode
+    let newNode = head
+    let nextNode = head.next
+        newNode.next=null
+    let pNode
+    while(nextNode){
         pNode = nextNode
+        nextNode = nextNode.next
+        pNode.next = newNode
+        newNode = pNode
     }
+    
     return newNode
-}
+};
