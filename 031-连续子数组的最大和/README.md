@@ -1,4 +1,8 @@
+[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
-**题目描述**
+Example:
 
-计算连续子向量的最大和,当向量全为正数的时候,问题很好解决。
+Input: [-2,1,-3,4,-1,2,1,-5,4],
+Output: 6
+Explanation: [4,-1,2,1] has the largest sum = 6.

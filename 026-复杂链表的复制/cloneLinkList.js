@@ -5,7 +5,7 @@ function RandomListNode(x) {
   this.random = null;
 }
 function cloneLinkList(pHead) {
-  let cloneRandomMap = new Map()
+  let cloneRandomMap = new Map() //使用map 来完成 新旧的对应，也可以使用数组，通过编号来对应
   if (pHead == null) return null
   let pNode = pHead
   let newHead = null
@@ -35,4 +35,6 @@ function cloneLinkList(pHead) {
 }
 
 
-//``console.log(cloneLinkList(new RandomListNode(1)))
+
+
+

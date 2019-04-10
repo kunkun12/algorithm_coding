@@ -1,8 +1,7 @@
 
+leetcode 426 Convert Binary Search Tree to Sorted Doubly Linked List 这道题在LeetCode上收费的，可以去牛客网提交验证
 
-**题目描述**
-
-
+[二叉搜索树与双向链表](http://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?tpId=13&tqId=11179&rp=2&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。要求不能创建任何新的结点，只能调整树中结点指针的指向。
 
 #分析
