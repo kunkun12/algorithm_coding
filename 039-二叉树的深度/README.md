@@ -1,4 +1,4 @@
-#
+[https://leetcode.com/problems/maximum-depth-of-binary-tree/description/](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 **题目描述**
 
 >输入一棵二叉树，求该树的深度。
@@ -17,8 +17,3 @@
 对二叉树进行层次遍历，维护一个层数计数器，每次进入一层就增加1，从而得到二叉树的层数。
 当然如果使用递归的话，思路就更简单了，返回左右子树中深度最大的那个
 
-层次遍历的代码，我们前面已经将了很多了，这里就不再啰嗦了，需要的统计可以参见我的另外几篇博客
-[二叉树的遍历详解（前序中序后序层次-递归和非递归）](http://blog.csdn.net/gatieme/article/details/51163010)
-[剑指Offer--023-从上往下打印二叉树（层次遍历二叉树）](http://blog.csdn.net/gatieme/article/details/51204976)
-
-但是递归的思路稍有不同，因此要返回层数，那么我们就返回左右子树中深度最大的那个
