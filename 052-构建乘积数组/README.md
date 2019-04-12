@@ -1,17 +1,13 @@
+[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 
+Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
-#题意
--------
+Example:
 
+Input:  [1,2,3,4]
+Output: [24,12,8,6]
+Note: Please solve it without division and in O(n).
 
-**题目描述**
-
->给定一个数组A[0,1,...,n-1],请构建一个数组B[0,1,...,n-1],其中B中的元素B[i]=A[0]*A[1]*...*A[i-1]*A[i+1]*...*A[n-1]。
->
->不能使用除法。
-
-**样例输入**
-
-> [1, 2, 3, 4, 5]
-
+Follow up:
+Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
 
