@@ -1,19 +1,17 @@
+[287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)
+Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
 
+Example 1:
 
-**题目描述**
+Input: [1,3,4,2,2]
+Output: 2
+Example 2:
 
->在一个长度为n的数组里的所有数字都在0到n-1的范围内。 
->
->数组中某些数字是重复的，但不知道有几个数字是重复的。
->
->也不知道每个数字重复几次。请找出数组中任意一个重复的数字。
->
->例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是重复的数字2或者3。
+Input: [3,1,3,4,2]
+Output: 3
+Note:
 
-**样例输入**
-
->2, 3, 1, 0, 2, 5, 3
->
-> 2, 1, 3, 1, 4
-
-
+You must not modify the array (assume the array is read only).
+You must use only constant, O(1) extra space.
+Your runtime complexity should be less than O(n2).
+There is only one duplicate number in the array, but it could be repeated more than once.
